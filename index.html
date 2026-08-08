@@ -27,14 +27,16 @@
     /* стартовый сплэш до загрузки React */
     #boot { position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
       background:#fff; z-index:9999; transition:opacity .3s; }
+    /* Фирменный знак на зелёной плашке — вместо самодельной буквы */
     #boot .m { width:64px;height:64px;border-radius:16px;background:var(--ci-green);
-      display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;
-      font-size:34px;font-family:Arial,sans-serif; box-shadow:0 8px 24px rgba(80,184,72,.35); }
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 8px 24px rgba(80,184,72,.35); }
+    #boot .m img { width:40px;height:40px;object-fit:contain; }
   </style>
-  <script type="module" crossorigin src="/pva2-app/assets/index-uSl475nB.js"></script>
+  <script type="module" crossorigin src="/pva2-app/assets/index-BD5oVCrd.js"></script>
 <link rel="manifest" href="/pva2-app/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/pva2-app/registerSW.js"></script></head>
 <body>
   <div id="root"></div>
-  <div id="boot"><div class="m">Ц</div></div>
+  <div id="boot"><div class="m"><img src="./brand/emblem-white.png" alt="Центр-инвест" /></div></div>
 </body>
 </html>
