@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Program%20Files/Git/pva2-app/sw.js', { scope: '/Program%20Files/Git/pva2-app/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/pva2-app/sw.js', { scope: '/pva2-app/' })})}
